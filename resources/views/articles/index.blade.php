@@ -12,7 +12,7 @@
         </div>
         @foreach($article as $a)
         <div class="card mx-4" style="width: 18rem; ">
-            <img src="{{ url('/images/'. $a->image ) }}" class="card-img-top" alt="...">
+            <img src="{{ url('/assets/images/'. $a->image ) }}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">{{ $a->title }}</h5>
               <p class="card-text">{{ $a->content }}</p>
